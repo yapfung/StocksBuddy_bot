@@ -1,0 +1,17 @@
+{
+    "telebot": {
+        "token_api": "1946902293:AAH6DM0HtddNlMcn5DiZ3FmtBkI0nNIECnY",
+        "welcome_msg": "Hello! I'm your StocksBuddy \\U0001F60A \n\nSimply send me a stock ticker in the chat to check its prices and trend \\U0001F4B9 or click on the menu for other functions\n\nTo the moon~~~ \\U0001F680 \\U0001F315 \n\nMore features to be added soon! \\U0001F609",
+        "help_msg": "Simply send me a stock ticker in the chat to check its prices and trend \\U0001F4B9 or click on the menu for other functions \n\n More features to be added soon! \\U0001F609",
+        "ticker_not_found_msg": "no data found on NASDAQ?\nplease check if the stock ticker symbol is correct",
+        "after_sentiment_msg": "You can type and send StockBuddy a stock ticker in the chat to find out more about the stock",
+        "ask_if_donate_msg": "StockBuddy is paying 5 US dollar per month to run this service in the cloud \\U0001F972 \n\nStockBuddy appreciates any form of support from you. Would you like make a donation?",
+        "no_donate_reply_msg": "It's fine! StocksBuddy will still be your good buddy",
+        "donate_grab_url": "https://grab.onelink.me/2695613898?af_dp=grab%3A%2F%2Fopen%3FscreenType%3DPEERTRANSFER%26method%3DQRCode%26pairingInfo%3DGPTransfer373c71756f9b430585a59113869475d5",
+        "donate_paylah_url": "https://www.dbs.com.sg/personal/mobile/paylink/index.html?tranRef=nMSgPyfLFH"
+
+
+
+    }
+    
+}
