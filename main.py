@@ -1,7 +1,18 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep  8 20:53:20 2021
+
+@author: YF
+
+This is a backend Python script for a telegram bot that gives users near
+real-time stocks information and analyses sentiment on stocks disucssion on 
+Reddit forum
+"""
+
 import telebot
 import stocks_data
-import wsb_sentiment
 import datetime as dt
+import os
 import json
 from codecs import unicode_escape_decode as udc
 
@@ -10,6 +21,16 @@ from codecs import unicode_escape_decode as udc
 
 
 def main():
+    '''
+    Initialises the telegram bot and handles user input messages
+
+    Returns
+    -------
+    None.
+
+    '''
+    
+    os.chdir(r'/home/yapfung/StocksView/')
     
     with open("config.json", 'r') as config_file:
         config = json.load(config_file)
